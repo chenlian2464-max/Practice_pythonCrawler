@@ -9,6 +9,8 @@ from fake_useragent import UserAgent
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import contextmanager
 
+""" 爬取豆瓣Top250的电影数据，250条电影保存至MongoDB """
+
 # 日志处理
 logging.basicConfig(level = logging.INFO,format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 # 爬取网址
